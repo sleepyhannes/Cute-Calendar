@@ -1,6 +1,6 @@
 # 🌸 Cute-Calendar
 
-A cute desktop calendar application built with HTML, CSS, JavaScript, and ElectronJS. This project features a custom **Spider Lily** theme.
+A cute desktop calendar application built with HTML, CSS, JavaScript, and ElectronJS. This project features a custom theme.
 
 ## Project Overview
 
@@ -9,8 +9,8 @@ This project serves as a lab activity designed to combine aesthetic front-end de
 ## Design & Aesthetic
 
 The project focuses on a aesthetic style for digital interfaces.
-- **Theme:** Custom Spider Lily assets
-- **Typography:** Libre Bodoni Regular
+- **Theme:** Custom Assets
+- **Typography:** Pixeboy
 - **Special Features:** Draggable window interface using `-webkit-app-region`
 
 ## What's in this repo
