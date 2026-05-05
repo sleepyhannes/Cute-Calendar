@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'LibreBodoni-Regular';
-    src: url('assets/LibreBodoni-Regular.ttf') format('truetype');
+    font-family: 'Pixeboy';
+    src: url('assets/Pixeboy.ttf') format('truetype');
 }
 
 * {
@@ -13,7 +13,7 @@ body {
     width: 292px;
     height: 430px;
     background: transparent;
-    font-family: 'LibreBodoni-Regular', sans-serif;
+    font-family: 'Pixeboy', sans-serif;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
     height: 27px;
     border-radius: 100px;
     border: 1px solid #840D0D;
-    background: rgb(197, 116, 116);
+    background: rgb(0, 0, 0);
     color: #FFF;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 #calendar {
     -webkit-app-region: no-drag;
     width: 220px;
-    height: 220px;
+    height: 240px;
     background: url("assets/inner-frame-bg.png") no-repeat center/contain;
     display: flex;
     flex-direction: column;
@@ -61,18 +61,19 @@ body {
 
 #day {
     font-size: 8.5rem;
-    color: white;
-    -webkit-text-stroke: 1.5px #840D0D;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px #840D0D;
     line-height: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1.5rem;
 }
 
 #month {
     font-size: 2rem;
-    color: white;
-    -webkit-text-stroke: 0.5px #ffffff;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px #840D0D;
     letter-spacing: 0.2rem;
     margin-top: -10px;
     text-transform: uppercase;
