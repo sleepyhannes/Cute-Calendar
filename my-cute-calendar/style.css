@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'LibreBodoni-Regular';
+    src: url('assets/LibreBodoni-Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 292px;
+    height: 430px;
+    background: transparent;
+    font-family: 'LibreBodoni-Regular', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    -webkit-app-region: drag;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 55px;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+    background: url("assets/outer-frame-bg.png") no-repeat center/contain;
+}
+
+.title {
+    -webkit-app-region: no-drag;
+    width: 157px;
+    height: 27px;
+    border-radius: 100px;
+    border: 1px solid #840D0D;
+    background: rgb(197, 116, 116);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#calendar {
+    -webkit-app-region: no-drag;
+    width: 220px;
+    height: 220px;
+    background: url("assets/inner-frame-bg.png") no-repeat center/contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 35px;
+}
+
+#day {
+    font-size: 8.5rem;
+    color: white;
+    -webkit-text-stroke: 1.5px #840D0D;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#month {
+    font-size: 2rem;
+    color: white;
+    -webkit-text-stroke: 0.5px #ffffff;
+    letter-spacing: 0.2rem;
+    margin-top: -10px;
+    text-transform: uppercase;
+    text-align: center;
+}
