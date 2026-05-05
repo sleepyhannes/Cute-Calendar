@@ -30,7 +30,7 @@ The project focuses on a aesthetic style for digital interfaces.
 ### 1. Clone This Repo
 
 ```
-git clone https://github.com/hannesdssddss/Cute-Calendar.git
+git clone https://github.com/sleepyhannes/Cute-Calendar.git
 cd my-cute-calendar
 ```
 
